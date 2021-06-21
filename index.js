@@ -12,7 +12,7 @@ app.use(function(req, res, next) {
 
 require("./Postthingy.js")
 const Post=mongoose.model('P')
-const MONGOURL="mongodb+srv://aaaa:KMtPV1FJNTmFOgHn@cluster0.lgwlk.mongodb.net/<dbname>?retryWrites=true&w=majority"
+const MONGOURL="Your mongo databse url"
 
 mongoose.connect(MONGOURL,{
 	useUnifiedTopology:true,
